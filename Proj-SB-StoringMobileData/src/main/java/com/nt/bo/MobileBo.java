@@ -1,0 +1,45 @@
+package com.nt.bo;
+
+public class MobileBo {
+private int id;
+private String name;
+private String cname;
+private double price;
+public MobileBo() {
+	
+}
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public String getCname() {
+	return cname;
+}
+public void setCname(String cname) {
+	this.cname = cname;
+}
+public double getPrice() {
+	return price;
+}
+public void setPrice(double price) {
+	this.price = price;
+}
+@Override
+public String toString() {
+	return "MobileBo [id=" + id + ", name=" + name + ", cname=" + cname + ", price=" + price + "]";
+}
+
+
+
+	
+	
+	
+}
